@@ -1,0 +1,40 @@
+Login page ui:
+input txt "Username or e-mail"
+Input txt " password" 
+Btn "login" 
+Image (warning symbol) 
+Label " username cannot be empty" 
+Label " the user name or password do not match" 
+Label " password can not be empty" 
+a "Forgot password" 
+a "Sign up "
+a "Continue as guest "
+a "show/hide"
+
+Input txt "  e-mail" 
+btn " send recovery email"
+Image (warning symbol)  
+Label " Invalid e-mail address" 
+Label " a link to recover your password has been sent your e-mail" 
+Image (checkmark) 
+
+Input txt " username" 
+Input txt " Email" 
+Input txt " password" 
+Btn " sign up" 
+Btn "log in as guest" 
+Btn " login with existing account" 
+Image (warning symbol) 
+Label " username cannot be empty" 
+Label " email cannot be empty" 
+Label " password cannot be empty" 
+Label " password must contain at least 8 characters Including at least 1 letter and 1 nunber"
+Label " please enter a valid e-mail" 
+
+ctms page ui:
+h1 " practice project " 
+Label " Guest/ username/ Username(Admin)  " 
+btn (admin) "view users"
+
+Table: study name, region, description, start date, end date, btn (admin) "edit", btn(admin) "Remove" 
+btn (admin) "Create new study" 

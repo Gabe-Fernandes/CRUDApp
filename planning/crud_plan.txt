@@ -1,0 +1,54 @@
+Planning
+
+tech stack:
+SDLC methodology - waterfall (Plan/SRS, design, build, deploy, maintain) 
+IDE - visual studio 
+Version control - git
+
+---Front---
+Structure - razor
+Styling - plain css (vscode copy)
+Functionality - plain js
+
+---Back---
+Programming language - c#
+Back end framework - .net (mvc)
+Database - sqlServer 
+db Management - Entity ORM framework
+
+Research:
+Input type attribute =" password" 
+
+SRS
+
+Features: 
+Responsive design 
+crud server side rendering 
+Deployed on digital ocean 
+ssl cert
+Authentication/Authorization 
+
+stretch:
+demo video/gif
+tab icon
+dark/light mode
+cookies
+privacy
+Unit tests
+Profile pictures 
+Search functionality on the study table 
+Recovery email 
+SEO 
+Accessibility 
+
+Build:
+5/8/22 plan, srs, design
+5/9/22 Front end 
+5/10/22 Backend 
+5/11/22 deployment
+
+initial commit
+login page ui
+crud page ui
+crud page back
+login back
