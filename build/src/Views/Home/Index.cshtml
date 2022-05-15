@@ -1,4 +1,125 @@
 ﻿@{
-    ViewData["Title"] = "CRUDApp Login";
+  ViewData["Title"] = "CRUDApp Login";
 }
-<div>@ViewData["Title"]</div>
+<div class="title-wrap"><h1>CTMS</h1></div>
+
+<main>
+  <div class="head-room"></div>
+
+  <div class="textbox-wrap">
+    <button id="signUpBtn" class="btn transparent-btn">Sign up</button>
+    <div class="warning-wrap">
+      <input id="usernameText" class="textbox" placeholder="username or email">
+      <img id="warningUsername" class="warning" src="/images/warning.jpg" alt="image not found">
+    </div>
+    <div class="error-wrap">
+      <label id="errorUsername" class="error-lbl">Username cannot be empty</label>
+    </div>
+  </div>
+
+  <div class="textbox-wrap">
+    <button id="showBtn" class="btn transparent-btn">Show</button>
+    <div class="warning-wrap">
+      <input id="passwordText" class="textbox" placeholder="password" type="password">
+      <img id="warningPassword" class="warning"  src="/images/warning.jpg" alt="image not found">
+    </div>
+    <div class="error-wrap">
+      <label id="errorPassword" class="error-lbl">Password cannot be empty</label>
+    </div>
+  </div>
+
+  <div class="btn-wrap">
+    <a id="logInBtn" class="btn" asp-controller="Home" asp-action="CTMS">Log in</a><span></span>
+    <a id="continueAsGuestBtn" class="btn" asp-controller="Home" asp-action="CTMS">Continue as guest</a>
+  </div>
+  <div class="btn-wrap">
+    <button id="forgotPasswordBtn" class="btn transparent-btn">Forgot password?</button>
+  </div>
+
+  <!--A user with this email does not exist
+  Incorrect password-->
+</main>
+
+<section  id="recoveryModal" class="modal-layer">
+  <div class="recovery-background">
+    <div id="recoveryText">
+      <div class="warning-wrap">
+        <input id="recoveryEmailText" class="textbox" placeholder="email">
+        <img id="recoveryWarning" class="warning" src="/images/warning.jpg" alt="image not found">
+      </div>
+      <div class="error-wrap">
+        <label id="recoveryErrorEmail" class="error-lbl margin-reset">Please enter a valid email</label>
+      </div>
+    </div>
+  
+    <div id="recoveryConfirmationWrap" class="confirmation-wrap">
+      <img class="checkmark" src="/images/checkmark.png" alt="image not found">
+      <label class="confirmation-lbl">A link to recover your password has been sent to your email.</label>
+    </div>
+
+    <div>
+      <button id="sendEmailBtn" class="btn">Send recovery email</button><span></span>
+      <button id="recoveryBackBtn" class="btn">Back</button>
+    </div>
+  </div>
+</section>
+
+<section id="signUpModal" class="modal-layer">
+  <div class="sign-up-background">
+    <div class="sign-up-title">Sign Up</div>
+    <div id="signUpConfirmationContent" class="input-wrap">
+
+      <div class="textbox-wrap">
+        <div class="warning-wrap">
+          <img id="signUpWarningUser" class="warning" src="/images/warning.jpg" alt="image not found">
+          <input id="signUpTextUser" class="textbox" placeholder="username">
+        </div>
+        <div class="error-wrap">
+          <label id="signUpErrorUser" class="error-lbl margin-reset">Username is already taken</label>
+        </div>
+      </div>
+
+      <div class="textbox-wrap">
+        <div class="warning-wrap">
+          <img id="signUpWarningEmail" class="warning" src="/images/warning.jpg" alt="image not found">
+          <input id="signUpTextEmail" class="textbox" placeholder="email">
+        </div>
+        <div class="error-wrap">
+          <label id="signUpErrorEmail" class="error-lbl margin-reset">Please enter a valid email</label>
+        </div>
+      </div>
+
+      <div class="textbox-wrap">
+        <button id="signUpShowBtn1" class="btn transparent-btn">Show</button>
+        <div class="warning-wrap">
+          <img id="signUpWarningPassword" class="warning" src="/images/warning.jpg" alt="image not found">
+          <input id="signUpTextPassword" class="textbox" placeholder="password" type="password">
+        </div>
+        <div class="error-wrap">
+          <label id="signUpErrorPassword" class="error-lbl margin-reset">Please enter a valid password</label>
+        </div>
+      </div>
+
+      <div class="textbox-wrap">
+        <button id="signUpShowBtn2" class="btn transparent-btn">Show</button>
+        <div class="warning-wrap">
+          <img id="signUpWarningPassrepeat" class="warning" src="/images/warning.jpg" alt="image not found">
+          <input id="signUpTextPassrepeat" class="textbox" placeholder="repeat password" type="password">
+        </div>
+        <div class="error-wrap">
+          <label id="signUpErrorPassrepeat" class="error-lbl margin-reset">Passwords do not match</label>
+        </div>
+      </div>
+    </div>
+
+    <div id="signUpConfirmationWrap" class="confirmation-wrap">
+      <img class="checkmark" src="/images/checkmark.png" alt="image not found">
+      <label class="confirmation-lbl">Your account has been created!</label>
+    </div>
+
+    <div class="btn-wrap">
+      <button id="createAccountBtn" class="btn">Create account</button><span></span>
+      <button id="signUpBackBtn" class="btn">Back</button>
+    </div>
+  </div>
+</section>

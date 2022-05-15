@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\CRUDApp\\CRUDApp\\CRUDApp.csproj": {}
+    "C:\\dev\\CRUDApp\\build\\src\\CRUDApp.csproj": {}
   },
   "projects": {
-    "C:\\dev\\CRUDApp\\CRUDApp\\CRUDApp.csproj": {
+    "C:\\dev\\CRUDApp\\build\\src\\CRUDApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\CRUDApp\\CRUDApp\\CRUDApp.csproj",
+        "projectUniqueName": "C:\\dev\\CRUDApp\\build\\src\\CRUDApp.csproj",
         "projectName": "CRUDApp",
-        "projectPath": "C:\\dev\\CRUDApp\\CRUDApp\\CRUDApp.csproj",
+        "projectPath": "C:\\dev\\CRUDApp\\build\\src\\CRUDApp.csproj",
         "packagesPath": "C:\\Users\\gabef\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\CRUDApp\\CRUDApp\\obj\\",
+        "outputPath": "C:\\dev\\CRUDApp\\build\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabef\\AppData\\Roaming\\NuGet\\NuGet.Config",

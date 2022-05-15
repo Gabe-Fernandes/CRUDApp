@@ -4,22 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>@ViewData["Title"]</title>
-  <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+  <link rel="stylesheet" href="/css/index.css" asp-append-version="true">
+  <link rel="stylesheet" href="/css/index-MQ.css" asp-append-version="true">
+  <link rel="stylesheet" href="/css/general.css" asp-append-version="true">
+  <script async src="/js/index.js" asp-append-version="true"></script>
   <link rel="stylesheet" href="~/CRUDApp.styles.css" asp-append-version="true" />
 </head>
 <body>
-  <div>
-    <main role="main">
-      @RenderBody()
-    </main>
-  </div>
-  
+  @RenderBody()
   <footer>
     <div>
       &copy; 2022 - CRUDApp
     </div>
   </footer>
-  <script src="~/js/site.js" asp-append-version="true"></script>
-  @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
