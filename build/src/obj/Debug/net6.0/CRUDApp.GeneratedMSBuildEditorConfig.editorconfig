@@ -8,33 +8,33 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CRUDApp
 build_property.RootNamespace = CRUDApp
-build_property.ProjectDir = C:\dev\CRUDApp\build\src\
+build_property.ProjectDir = C:\dev\firstapp\build\src\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\dev\CRUDApp\build\src
+build_property.MSBuildProjectDirectory = C:\dev\firstapp\build\src
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/dev/CRUDApp/build/src/Views/Home/CTMS.cshtml]
+[C:/dev/firstapp/build/src/Views/Home/CTMS.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDVE1TLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/CRUDApp/build/src/Views/Home/Index.cshtml]
+[C:/dev/firstapp/build/src/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/CRUDApp/build/src/Views/Shared/Error.cshtml]
+[C:/dev/firstapp/build/src/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/CRUDApp/build/src/Views/_ViewImports.cshtml]
+[C:/dev/firstapp/build/src/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/CRUDApp/build/src/Views/_ViewStart.cshtml]
+[C:/dev/firstapp/build/src/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/dev/CRUDApp/build/src/Views/Shared/_Layout.cshtml]
+[C:/dev/firstapp/build/src/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3paj6eiol4

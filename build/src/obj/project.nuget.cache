@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LwILxU3l/KcOR1OoMoD5gDUbNnlS1fnvyJz9hQaz7RIOGoAbO4XholB/WhoE9UdUEnPfzvmpZrK1C/w7QMLvag==",
+  "dgSpecHash": "JxBezM56mY4Bk2gYelJd5udOo6SnFpwdpRHZVJFkAyCo0z7Qd8Zb1ac1SrNw6M9k8jHS/8AKRxdKT/4VeKOkvA==",
   "success": true,
-  "projectFilePath": "C:\\dev\\CRUDApp\\build\\src\\CRUDApp.csproj",
+  "projectFilePath": "C:\\dev\\firstapp\\build\\src\\CRUDApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
