@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDApp", "C:\dev\crudapp\build\CRUDApp.csproj", "{34DE18BF-D1DF-4C5B-B10A-1AE626A67423}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDApp", "src\CRUDApp.csproj", "{E416E23B-A1BC-475C-8339-0BE15350BCA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{34DE18BF-D1DF-4C5B-B10A-1AE626A67423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{34DE18BF-D1DF-4C5B-B10A-1AE626A67423}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{34DE18BF-D1DF-4C5B-B10A-1AE626A67423}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{34DE18BF-D1DF-4C5B-B10A-1AE626A67423}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E416E23B-A1BC-475C-8339-0BE15350BCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E416E23B-A1BC-475C-8339-0BE15350BCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E416E23B-A1BC-475C-8339-0BE15350BCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E416E23B-A1BC-475C-8339-0BE15350BCA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {694BBB3F-80AC-458A-8D6B-2FB50F76951C}
+		SolutionGuid = {969E28D2-D9ED-4746-9AD9-72B2B66B094E}
 	EndGlobalSection
 EndGlobal
