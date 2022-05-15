@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pORtTijfk3RqnL+wtJeoCtUMHLRlIdL02J/Ybhc/fok=",
+  "Hash": "EkBmvEPCE1hGIxb/Bqodl8ukbcV6jM/W1eXh7GHg3c0=",
   "Source": "CRUDApp",
   "BasePath": "_content/CRUDApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CRUDApp\\wwwroot",
       "Source": "CRUDApp",
-      "ContentRoot": "C:\\dev\\CRUDApp\\CRUDApp\\wwwroot\\",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\",
       "BasePath": "_content/CRUDApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\dev\\CRUDApp\\CRUDApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CRUDApp.styles.css",
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CRUDApp.styles.css",
       "SourceId": "CRUDApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\dev\\CRUDApp\\CRUDApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CRUDApp",
       "RelativePath": "CRUDApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\dev\\CRUDApp\\CRUDApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CRUDApp.styles.css"
+      "OriginalItemSpec": "C:\\dev\\CRUDApp\\build\\src\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CRUDApp.styles.css"
     },
     {
-      "Identity": "C:\\dev\\CRUDApp\\CRUDApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CRUDApp.bundle.scp.css",
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CRUDApp.bundle.scp.css",
       "SourceId": "CRUDApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\dev\\CRUDApp\\CRUDApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CRUDApp",
       "RelativePath": "CRUDApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,15 +48,15 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\dev\\CRUDApp\\CRUDApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CRUDApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\dev\\CRUDApp\\build\\src\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CRUDApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\dev\\CRUDApp\\CRUDApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\css\\ctms.css",
       "SourceId": "CRUDApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\dev\\CRUDApp\\CRUDApp\\wwwroot\\",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\",
       "BasePath": "_content/CRUDApp",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/ctms.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,13 +65,64 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\ctms.css"
     },
     {
-      "Identity": "C:\\dev\\CRUDApp\\CRUDApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\css\\general.css",
       "SourceId": "CRUDApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\dev\\CRUDApp\\CRUDApp\\wwwroot\\",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\",
+      "BasePath": "_content/CRUDApp",
+      "RelativePath": "css/general.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\general.css"
+    },
+    {
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\css\\index.css",
+      "SourceId": "CRUDApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\",
+      "BasePath": "_content/CRUDApp",
+      "RelativePath": "css/index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\css\\index-MQ.css",
+      "SourceId": "CRUDApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\",
+      "BasePath": "_content/CRUDApp",
+      "RelativePath": "css/index-MQ.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\index-MQ.css"
+    },
+    {
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\favicon.ico",
+      "SourceId": "CRUDApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\",
       "BasePath": "_content/CRUDApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,12 +136,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\dev\\CRUDApp\\CRUDApp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\images\\checkmark.png",
       "SourceId": "CRUDApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\dev\\CRUDApp\\CRUDApp\\wwwroot\\",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\",
       "BasePath": "_content/CRUDApp",
-      "RelativePath": "js/site.js",
+      "RelativePath": "images/checkmark.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,7 +150,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\images\\checkmark.png"
+    },
+    {
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\images\\warning.jpg",
+      "SourceId": "CRUDApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\",
+      "BasePath": "_content/CRUDApp",
+      "RelativePath": "images/warning.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\warning.jpg"
+    },
+    {
+      "Identity": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\js\\index.js",
+      "SourceId": "CRUDApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\dev\\CRUDApp\\build\\src\\wwwroot\\",
+      "BasePath": "_content/CRUDApp",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     }
   ]
 }

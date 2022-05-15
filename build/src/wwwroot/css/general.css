@@ -1,0 +1,10 @@
+body {
+  background-color: #30362F;
+}
+
+* {
+  color: #FFFBDB;
+  font-family: 'Trebuchet MS', 'Times New Roman';
+}
+
+.margin-reset {margin: 0;}
