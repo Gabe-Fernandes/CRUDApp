@@ -1,10 +1,97 @@
-body {
-  background-color: #30362F;
-}
-
 * {
   color: #FFFBDB;
   font-family: 'Trebuchet MS', 'Times New Roman';
+  text-decoration: none;
 }
 
-.margin-reset {margin: 0;}
+body {
+  background-color: #30362F;
+  margin: 0px;
+}
+
+.chl1 {
+  background-color: #DA7422
+}
+
+.chl2 {
+  background-color: #78A1BB
+}
+
+.cbg1 {
+  background-color: #30362F;
+}
+
+.cbg2 {
+  background-color: #625834;
+}
+
+.ctxt {
+  background-color: #FFFBDB;
+}
+
+.margin-reset {
+  margin: 0;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+}
+
+  .btn-wrap span {
+    width: 8px;
+  }
+
+.btn {
+  background-color: #DA7422;
+  text-decoration: none;
+  padding: 7px 16px;
+  border: 2px outset rgb(118, 118, 118);
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: filter 0.25s;
+}
+
+  .btn:hover {
+    filter: brightness(115%);
+  }
+
+.btn-disable, .btn-disable:hover {
+  filter: brightness(50%);
+}
+
+.transparent-btn {
+  color: #FFFBDB;
+  background-color: transparent;
+  border: none;
+}
+
+.modal-layer {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 4vh;
+  left: 2vw;
+}

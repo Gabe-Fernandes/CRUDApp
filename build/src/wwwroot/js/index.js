@@ -42,10 +42,6 @@ const SpecialChars = ["@", "_", "-", ".", "!", "#", "$", "%", "&", "*", "?"]
 const NumericalChars = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 const AlphabeticalChars = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
-function Sleep(miliseconds) {
-  return new Promise((resolve) => setTimeout(resolve, miliseconds));
-}
-
 function ValidChar(char, charList) {
   for (let i = 0; i < charList.length; i++) {
     if (char === charList[i]) {return true}
@@ -146,9 +142,9 @@ signUpShowBtn2.addEventListener("click", ()=> {
 });
 
 function ErrorToggle(textbox, icon, message, toggle) {
-    message.classList[toggle]("error-show");
-    icon.classList[toggle]("error-show");
-    textbox.classList[toggle]("error-border");
+  textbox.classList[toggle]("error-border");
+  icon.classList[toggle]("error-show");
+  message.classList[toggle]("error-show");
 }
 
 function ConfirmationToggle(confirmationWrap, removedContent, button, toggle) {
@@ -184,13 +180,11 @@ signUpTextPassrepeat.addEventListener("input", ()=> {
   } else {ErrorToggle(signUpTextPassrepeat, signUpWarningPassrepeat, signUpErrorPassrepeat, "remove")}
 });
                     
-function AddModal(modal) {modal.classList.add("modal-show");}
-function RemoveModal(modal) {modal.classList.remove("modal-show");}
 forgotPasswordBtn.addEventListener("click", ()=> {AddModal(recoveryModal)});
-recoveryBackBtn.addEventListener("click", ()=> {RemoveModal(recoveryModal);
+recoveryBackBtn.addEventListener("click", ()=> {RemoveModal(recoveryModal)
   Sleep(1000).then(()=>{ConfirmationToggle(recoveryConfirmationWrap, recoveryText, sendEmailBtn, "remove")})});
 signUpBtn.addEventListener("click", ()=> {AddModal(signUpModal)});
-signUpBackBtn.addEventListener("click", ()=> {RemoveModal(signUpModal);
+signUpBackBtn.addEventListener("click", ()=> {RemoveModal(signUpModal)
   Sleep(1000).then(()=>{ ConfirmationToggle(signUpConfirmationWrap, signUpConfirmationContent, createAccountBtn, "remove")})});
 
 sendEmailBtn.addEventListener("click", ()=> {
