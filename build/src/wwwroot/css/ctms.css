@@ -1,0 +1,166 @@
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+}
+
+  .header a {
+    background-color: #625834;
+    margin-left: 2%;
+    padding: 4px 8px;
+  }
+
+.ctms-title {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-panel {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 16%;
+}
+
+  .admin-panel span {
+    width: 8px;
+  }
+
+.main-ctms {
+  background-color: #30362F;
+  height: 40vh;
+  margin: 5vh auto;
+  font-size: 20px;
+}
+
+  .main-ctms table {
+    margin: 0px auto;
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .main-ctms th, td {
+    border: 1px solid #30362F;
+    color: #30362F;
+    text-align: center;
+    padding: 5px;
+  }
+
+  .main-ctms th {
+    background-color: #DA7422;
+    font-size: 24px;
+  }
+
+  .main-ctms button {
+    background-color: #625834;
+  }
+
+tr:nth-child(even) {
+  background-color: #E1DFCB
+}
+
+tr:nth-child(odd) {
+  background-color: #FFFBDB
+}
+
+.main-ctms tr {
+  transition: background-color 0.3s;
+}
+
+tr:hover {
+  background-color: #78A1BB;
+}
+
+.no-studies-wrap {
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+
+.user-background {
+  background-color: #30362F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-title-wrap {
+  display: flex;
+  align-items: center;
+  height: 15%;
+}
+
+.user-background ul {
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 1px solid #625834;
+  max-width: 90%;
+  height: 35%;
+}
+
+
+
+.create-background {
+  background-color: #30362F;
+}
+
+.create-modal-space {
+  height: 6%;
+}
+
+.create-title-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15%;
+}
+
+.create-input-wrap {
+  height: 58%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.create-input-section, .create-input-dates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.create-input-section {
+  height: 100%;
+}
+
+.create-input-dates br {
+  display: none;
+}
+
+.create-background input, textarea {
+  font-size: 20px;
+  color: #30362F;
+  margin: 8px 0px;
+  padding-left: 10px;
+}
+
+#createDescription {
+  resize: none;
+  width: 70%;
+  height: 80%;
+}
+
+#createError {
+  padding: 4px 10px;
+}
+
+.create-error {
+  border: 1px solid red;
+}

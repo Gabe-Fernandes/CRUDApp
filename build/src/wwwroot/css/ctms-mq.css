@@ -1,0 +1,108 @@
+@media (max-width: 500px) {
+  .btn, header, header a, .user-background li {font-size: 18px;}
+  .ctms-title, .create-title-wrap, .user-title-wrap {font-size: 20px;}
+  .main-ctms {width: 100%;}
+  .admin-panel, .header {margin: 0px; justify-content: center;}
+  .main-ctms th {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .main-ctms table, td {
+    font-size: 16px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #30362F;
+  }
+  .right-data {
+    position: relative;
+    padding-left: 50%;
+  }
+  .left-data {
+    position: absolute;
+    width: 50%;
+    border: none;
+  }
+  .study-description {width: 100vw;}
+  .user-background {width: 65%;}
+  .create-background {width: 100%;}
+  .create-input-wrap {display: flex; flex-direction: column;}
+}
+@media (min-width: 501px) and (max-width: 750px) {
+  .btn, header, header a, .user-background li {font-size: 20px;}
+  .ctms-title, .create-title-wrap, .user-title-wrap {font-size: 25px;}
+  .main-ctms {width: 100%;}
+  .admin-panel, .header {margin: 0px; justify-content: center;}
+  .main-ctms th {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .main-ctms table, td{
+    font-size: 20px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #30362F;
+  }
+  .right-data {
+    position: relative;
+    padding-left: 50%;
+  }
+  .left-data {
+    position: absolute;
+    width: 50%;
+    border: none;
+  }
+  .study-description {width: 100vw;}
+  .user-background {width: 65%;}
+  .create-background {width: 100%;}
+  .create-input-wrap {display: flex; flex-direction: column;}
+}
+@media (min-width: 751px) and (max-width: 1000px) {
+  .btn, header, header a, .user-background li {font-size: 20px;}
+  .ctms-title, .create-title-wrap, .user-title-wrap {font-size: 25px;}
+  .main-ctms {width: 90%;}
+  .admin-panel {margin: 0px; justify-content: center;}
+  .user-background {width: 40%;}
+  .create-background {width: 75%;}
+  .create-input-dates br {display: inline;} /*reveal br between lbl and dates*/
+}
+@media (min-width: 1001px) and (max-width: 1250px) {
+  .btn, header, header a, .user-background li {font-size: 22px;}
+  .ctms-title, .create-title-wrap, .user-title-wrap {font-size: 25px;}
+  .main-ctms {width: 80%;}
+  .admin-panel {margin: 0px; justify-content: center;}
+  .user-background {width: 35%;}
+  .create-background {width: 65%;}
+}
+@media (min-width: 1251px) {
+  .btn, header, header a, .user-background li {font-size: 24px;}
+  .ctms-title, .create-title-wrap, .user-title-wrap {font-size: 25px;}
+  .main-ctms {width: 80%;}
+  .user-background {width: 25%;}
+  .create-background {width: 55%;}
+}
+
+
+
+@media (max-height: 500px) {
+  .user-background {height: 80%;}
+  .create-background {height: 100%;}
+  .header, .ctms-title, .admin-panel {height: 15vh;}
+}
+@media (min-height: 501px) and (max-height: 750px) {
+  .user-background {height: 60%;}
+  .create-background {height: 80%;}
+}
+@media (min-height: 751px) and (max-height: 1000px) {
+  .user-background {height: 45%;}
+  .create-background {height: 70%;}
+}
+@media (min-height: 1001px) and (max-height: 1250px) {
+  .user-background {height: 40%;}
+  .create-background {height: 60%;}
+}
+@media (min-height: 1251px) {
+  .user-background {height: 30%;}
+  .create-background {height: 40%;}
+}
