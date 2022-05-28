@@ -1,0 +1,74 @@
+﻿<script async src="/js/ctms.js" asp-append-version="true"></script>
+
+@using CRUDApp;
+@model Study;
+@{
+	IEnumerable<Study> studies = ViewData["Studies"] as IEnumerable<Study>;
+}
+@{
+    ViewData["Title"] = "CTMS";
+}
+
+<header class="header">
+  <label>Welcome, Guest (admin)</label>
+  <a class="btn" asp-controller="Home" asp-action="Index">Log Out</a>
+</header>
+
+<div class="ctms-title"><h1>CTMS</h1></div>
+
+<div class="admin-panel">
+  <button id="adminViewUsersBtn" class="btn">View Users</button><span></span>
+  <a asp-controller="Study" asp-action="Create" class="btn">Create Study</a>
+</div>
+
+<main class="main-ctms">
+  <table>
+    <thead>
+      <tr>
+        <th>Study Name</th>
+        <th>Region</th>
+        <th>Description</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+				@if (studies.Count() > 0)
+				{
+        <th></th>
+        <th></th>
+				}
+      </tr>
+    </thead>
+    <tbody>
+			@foreach (Study obj in studies) {
+				<tr>
+					<td class="left-data">@obj.Name</td>
+					<td class="right-data">@obj.Region</td>
+					<td class="study-description">@obj.Description</td>
+					<td class="left-data">@obj.StartDate.ToString("MM/dd/yyyy")</td>
+					<td class="right-data">@obj.EndDate.ToString("MM/dd/yyyy")</td>
+					<td class="left-data"><a asp-controller="Study" asp-action="Edit" asp-route-id="@obj.Id" class="btn block">Edit</a></td>
+					<td class="right-data"><a asp-controller="Study" asp-action="Delete" asp-route-id="@obj.Id" class="btn block">Remove</a></td>
+				</tr>
+			}
+    </tbody>
+  </table>
+	@if (studies.Count() == 0)
+	{
+		<div class="no-studies-wrap"><label class="no-studies-lbl">(there are no studies to display)</label></div>
+	}
+</main>
+
+<section id="userModal" class="modal-layer">
+  <div class="user-background">
+    <div class="user-title-wrap">
+      <h2 class="margin-reset">Users</h2>
+    </div>
+    <ul>
+      <li>Gabriel Fernandes (admin)</li>
+      <li>user</li>
+      <li>user</li>
+      <li>user</li>
+      <li>user</li>
+    </ul>
+    <div class="btn-wrap"><button id="userBackBtn" class="btn">Back</button></div>
+  </div>
+</section>

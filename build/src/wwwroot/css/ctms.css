@@ -6,11 +6,11 @@
   margin-right: 5%;
 }
 
-  .header a {
-    background-color: #625834;
-    margin-left: 2%;
-    padding: 4px 8px;
-  }
+.header a {
+  background-color: #625834;
+  margin-left: 2%;
+  padding: 4px 8px;
+}
 
 .ctms-title {
   height: 10vh;
@@ -33,32 +33,39 @@
 
 .main-ctms {
   background-color: #30362F;
-  height: 40vh;
+  max-height: 40vh;
   margin: 5vh auto;
   font-size: 20px;
+  display: block;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.main-ctms::-webkit-scrollbar {display: none;} /*chrome/edge*/
+.main-ctms {scrollbar-width: none;} /*firefox*/
+
+.main-ctms table {
+  margin: 0px auto;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
 }
 
-  .main-ctms table {
-    margin: 0px auto;
-    width: 100%;
-    border-collapse: collapse;
-  }
+.main-ctms th, .main-ctms td {
+  border: 1px solid #30362F;
+  color: #30362F;
+  text-align: center;
+  padding: 5px;
+}
 
-  .main-ctms th, td {
-    border: 1px solid #30362F;
-    color: #30362F;
-    text-align: center;
-    padding: 5px;
-  }
+.main-ctms th {
+  background-color: #DA7422;
+  font-size: 24px;
+}
 
-  .main-ctms th {
-    background-color: #DA7422;
-    font-size: 24px;
-  }
-
-  .main-ctms button {
-    background-color: #625834;
-  }
+.main-ctms a, .main-ctms button {
+  background-color: #625834;
+}
+.block {display: inline-block;}
 
 tr:nth-child(even) {
   background-color: #E1DFCB
@@ -77,8 +84,15 @@ tr:hover {
 }
 
 .no-studies-wrap {
-  margin: 20px auto;
-  text-align: center;
+  height: 40vh;
+  position: relative;
+}
+
+.no-studies-lbl {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -164,3 +178,32 @@ tr:hover {
 .create-error {
   border: 1px solid red;
 }
+#endDateError {margin: 0;}
+.create-error-txt-hide {
+  display: none;
+}
+
+
+
+.del-background {
+  background-color: #30362F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.del-title-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.del-btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+.del-btn-wrap span {width: 8px}
