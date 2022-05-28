@@ -8,13 +8,14 @@
 .main-index {
   background-color: #78A1BB;
   border: 1px solid #625834;
+  border-radius: 24px;
   width: 35%;
   height: 70vh;
   margin: 0px auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .head-room {height: 10%;}

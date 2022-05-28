@@ -1,6 +1,9 @@
-﻿@{
+﻿<script async src="/js/index.js" asp-append-version="true"></script>
+
+@{
   ViewData["Title"] = "CRUDApp Login";
 }
+
 <div class="title-wrap"><h1>CTMS</h1></div>
 
 <main class="main-index">
@@ -29,8 +32,8 @@
   </div>
 
   <div class="btn-wrap">
-    <a id="logInBtn" class="btn" asp-controller="Home" asp-action="CTMS">Log in</a><span></span>
-    <a id="continueAsGuestBtn" class="btn" asp-controller="Home" asp-action="CTMS">Continue as guest</a>
+    <a id="logInBtn" class="btn" asp-controller="Study" asp-action="CTMS">Log in</a><span></span>
+    <a id="continueAsGuestBtn" class="btn" asp-controller="Study" asp-action="CTMS">Continue as guest</a>
   </div>
   <div class="btn-wrap">
     <button id="forgotPasswordBtn" class="btn transparent-btn">Forgot password?</button>

@@ -1,0 +1,60 @@
+﻿@using CRUDApp;
+@model Study;
+@{
+	IEnumerable<Study> studies = ViewData["Studies"] as IEnumerable<Study>;
+}
+@{
+    ViewData["Title"] = "CTMS";
+}
+
+<form method="post" asp-action="DeletePOST" class="modal-layer modal-show">
+	<div class="del-background">
+		<div class="del-title-wrap">Are you sure?</div>
+		<div class="del-btn-wrap">
+			<input asp-for="Id" hidden/>
+			<button type="submit" class="btn">Delete</button><span></span>
+			<a asp-controller="Study" asp-action="CTMS" class="btn">Cancel</a>
+		</div>
+	</div>
+</form>
+
+<header class="header">
+  <label>Welcome, Guest (admin)</label>
+  <button class="btn">Log Out</button>
+</header>
+
+<div class="ctms-title"><h1>CTMS</h1></div>
+
+<div class="admin-panel">
+  <button id="adminViewUsersBtn" class="btn">View Users</button><span></span>
+  <button id="adminCreateStudyBtn" class="btn">Create Study</button>
+</div>
+
+<main class="main-ctms">
+  <table>
+    <thead>
+      <tr>
+        <th>Study Name</th>
+        <th>Region</th>
+        <th>Description</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+			@foreach (Study obj in studies) {
+				<tr>
+					<td class="left-data">@obj.Name</td>
+					<td class="right-data">@obj.Region</td>
+					<td class="study-description">@obj.Description</td>
+					<td class="left-data">@obj.StartDate.ToString("MM/dd/yyyy")</td>
+					<td class="right-data">@obj.EndDate.ToString("MM/dd/yyyy")</td>
+					<td class="left-data"><button class="btn">Edit</button></td>
+					<td class="right-data"><button class="btn">Remove</button></td>
+				</tr>
+			}
+    </tbody>
+  </table>
+</main>
